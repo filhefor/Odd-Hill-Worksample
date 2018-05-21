@@ -1,7 +1,7 @@
 # Worksample for front end developer at Odd Hill
 
-![Alt text](/public/assets/images/detail.png?raw=true "Optional Title")
-![Alt text](/public/assets/images/start.png?raw=true "Optional Title")
+![Alt text](/public/assets/images/start.png?raw=true "Detail")
+![Alt text](/public/assets/images/detail.png?raw=true "Start")
 
 ## How to run the app locally on your computer
 
