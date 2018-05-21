@@ -17,6 +17,6 @@ npm install
 ```
 5. Run npm start
 ```
-npm install
+npm start
 ```
 6. Open Google Chrome and visit http://localhost:3000
