@@ -36,10 +36,10 @@ class TableColumn extends Component {
     })
   }
 
-  // When a Table row is clicked change the selectedRow in setState
+  // When a Table row is clicked change the selectedRow in state
   // so that the row can be set as Active
   // Also runs the function that was sent as props (updateState in App.js)
-  // so that the detailed view appear on the left
+  // so that the detailed view appear on the right
   onRowClick = data => () => {
     this.setState({ selectedRow: data.id });
     this.props.func(data);

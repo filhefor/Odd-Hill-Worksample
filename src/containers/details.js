@@ -17,7 +17,7 @@ class Details extends Component {
     open: false
   }
 
-  // The function runs when the component recieves new newProps
+  // The function runs when the component recieves new props
   // when updateState in App.js runs which is done when a table row is clicked
   componentWillReceiveProps(newProps) {
     this.setState({ invoice: newProps.invoice, open: newProps.open });
@@ -30,8 +30,7 @@ class Details extends Component {
   render() {
     return (
       <Container>
-
-          <Transition.Group animation="drop" duration={500}>
+          <Transition.Group animation="scale" duration={500}>
             {this.state.open && <StyledSegmentRoot textAlign="center">
             <Grid columns={1}>
               <Grid.Row>
